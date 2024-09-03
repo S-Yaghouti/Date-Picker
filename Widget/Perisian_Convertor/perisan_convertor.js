@@ -33,16 +33,3 @@ export function EnToFa(inputString) {
 }
 
 // --------------------------------------- >> convert en to fa <<
-
-// ----------------------------- >> convert 1 to 01 in persian <<
-export function addLeadingZero(persianNum) {
-  const englishNum = FaToEn(persianNum);
-  const num = parseInt(englishNum, 10);
-
-  if (num < 10) {
-    return "۰" + persianNum;
-  }
-
-  return persianNum;
-}
-// ----------------------------- >> convert 1 to 01 in persian <<
