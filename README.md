@@ -14,7 +14,7 @@ Installation
 To integrate the Date Picker into your project, follow these steps:
 
 1. Download the Files
-2. Include the Files in Your Project
+2. Liver Server the index.html
 
 Usage 
 
@@ -34,8 +34,6 @@ Usage
   * index.html: The main HTML file, where the page structure is defined. It includes the script.js file using a <script> tag.
   * style.css: Contains all the styles for the project, including custom HTML styles and DatePicker widget styles.
   * script.js: The main JavaScript file. This script imports the DatePicker widget from widget/datepicker.js
-
-2. just live server the html file and enjoy ✌✌.
 
 Credits
  * Subhaan Yaghouti Creator and maintainer of the project.
