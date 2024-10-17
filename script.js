@@ -1,3 +1,5 @@
+// ============= >> All icons are sourced from the Iconify website << ==============
+// 
 // =================================================================== >> improts <<
 import { DatePicker } from "./Widget/Date_Picker/date_picker.js";
 // =================================================================== >> improts <<
