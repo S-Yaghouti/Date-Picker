@@ -1,5 +1,5 @@
 // ============= >> All icons are sourced from the Iconify website << ==============
-// 
+//
 // =================================================================== >> improts <<
 import { DatePicker } from "./Widget/Date_Picker/date_picker.js";
 // =================================================================== >> improts <<
@@ -17,15 +17,20 @@ const BG_1 = document.querySelector("#BG_1");
 // ------------------------------------------------- >> Date Picker <<
 //
 // ------------------------------------ > Variable <
-let BirthDay = "";
-const BirthDateLabel = "تاریخ تولد";
+const DatePickerLabel = "تاریخ تولد";
 // ------------------------------------ > Variable <
 //
 // ------------------------------------ > CallBack <
-const BirthDayDatePicker = DatePicker(BirthDateLabel, (value) => {
-  BirthDay = value;
+const BirthDayDatePicker = DatePicker(DatePickerLabel, (selctedDate) => {
+  handleSelection(selctedDate);
 });
 // ------------------------------------ > CallBack <
+//
+// ------------------------------------ > Function <
+function handleSelection(SelectedDate) {
+  console.log(SelectedDate);
+}
+// ------------------------------------ > Function <
 //
 // -------------------------------------- > Append <
 BG_1.appendChild(BirthDayDatePicker);
