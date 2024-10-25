@@ -11,6 +11,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Customization](#Customization)
 - [Contributing](#contributing)
 - [Credits & Contact](#credits--contact)
 
